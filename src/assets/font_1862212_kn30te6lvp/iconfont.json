@@ -1,0 +1,114 @@
+{
+  "id": "1862212",
+  "name": "chuxue",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "212782",
+      "name": "show-password ",
+      "font_class": "showpassword",
+      "unicode": "ea3f",
+      "unicode_decimal": 59967
+    },
+    {
+      "icon_id": "768587",
+      "name": "password-b",
+      "font_class": "3702mima",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "1199149",
+      "name": "users",
+      "font_class": "users",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1727269",
+      "name": "06商品",
+      "font_class": "shangpin",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    },
+    {
+      "icon_id": "1727362",
+      "name": "25单据",
+      "font_class": "danju",
+      "unicode": "e89b",
+      "unicode_decimal": 59547
+    },
+    {
+      "icon_id": "1727367",
+      "name": "28体积、空间",
+      "font_class": "tijikongjian",
+      "unicode": "e89f",
+      "unicode_decimal": 59551
+    },
+    {
+      "icon_id": "1727461",
+      "name": "225默认头像",
+      "font_class": "morentouxiang",
+      "unicode": "e8c9",
+      "unicode_decimal": 59593
+    },
+    {
+      "icon_id": "1727589",
+      "name": "406报表",
+      "font_class": "baobiao",
+      "unicode": "e902",
+      "unicode_decimal": 59650
+    },
+    {
+      "icon_id": "5634494",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "f12b",
+      "unicode_decimal": 61739
+    },
+    {
+      "icon_id": "15592574",
+      "name": "lock-fill",
+      "font_class": "lock-fill",
+      "unicode": "ec08",
+      "unicode_decimal": 60424
+    },
+    {
+      "icon_id": "7766734",
+      "name": "icon_cspace",
+      "font_class": "icon_cspace",
+      "unicode": "eb93",
+      "unicode_decimal": 60307
+    },
+    {
+      "icon_id": "7766738",
+      "name": "icon_dingtalk_line",
+      "font_class": "icon_dingtalk_line",
+      "unicode": "eb94",
+      "unicode_decimal": 60308
+    },
+    {
+      "icon_id": "7766748",
+      "name": "icon_horn",
+      "font_class": "icon_horn",
+      "unicode": "eb96",
+      "unicode_decimal": 60310
+    },
+    {
+      "icon_id": "7766788",
+      "name": "icon_service",
+      "font_class": "icon_service",
+      "unicode": "eb9d",
+      "unicode_decimal": 60317
+    },
+    {
+      "icon_id": "7766806",
+      "name": "icon_wechat",
+      "font_class": "icon_wechat",
+      "unicode": "eba0",
+      "unicode_decimal": 60320
+    }
+  ]
+}
