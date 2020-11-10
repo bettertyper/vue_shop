@@ -28,7 +28,7 @@
     name: 'Login',
     data(){
       return {
-        loginForm: {
+        loginForm: {                  //这里直接把属性名定义为接口要求的参数名，发送请求时直接把这个对象当做参数对象传递
           username: 'admin',
           password: '123456'
         },
@@ -53,7 +53,7 @@
       login(){
         this.$refs.loginFormRef.validate(async valid => {                        //对表单进行预校验(如果所有输入框的内容符合各自的验证规则，则向callback中传入true；否则传入false)
           if(!valid) return;
-          const {data: res} = await this.$http.post('login', this.loginForm);    //baseURL里最后有个/，所以这里可以不加/。使用async + await对promise处理，代替then。解构时可以重命名：data: res
+          const {data: res} = await this.$http.post('login', this.loginForm);    //baseURL里最后有个/，所以这里可以不加/。使用await对promise处理，得到的值就是then/catch回调的参数；如果是then可以省略，如果是catch则不能省略。解构时可以重命名：data: res
           if(res.meta.status !== 200) return this.$message.error('登录失败');    //使用return可以省略else
           this.$message.success('登录成功');
           window.sessionStorage.setItem('token', res.data.token);                 //将token保存到sessionStorage中
