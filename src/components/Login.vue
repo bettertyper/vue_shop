@@ -8,7 +8,7 @@
       </div>
       <!-- 登录表单区域 -->
       <el-form ref="loginFormRef" :model="loginForm" :rules="loginFormRules" label-width="0px" class="login_form">
-        <el-form-item prop="username">                            <!-- 看清楚，这父传子传的是字符串username，不是变量username -->
+        <el-form-item prop="username">                            <!-- 看清楚，这父传子传的是字符串username，不是变量username。prop属性值是loginFormRules中的key名 -->
           <el-input v-model="loginForm.username" prefix-icon="iconfont icon-user"></el-input>        
         </el-form-item>
         <el-form-item prop="password">
