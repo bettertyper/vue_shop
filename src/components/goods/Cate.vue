@@ -160,7 +160,7 @@
         // console.log(res.data);
         this.parentCateList = res.data;
       },
-      //级联选择器的选择项发生变化时，修改addCateForm中的pid和level
+      //级联选择器的选中项发生变化时，修改addCateForm中的pid和level
       parentCateChanged(){
         // console.log(this.selectedKeys)
         if(this.selectedKeys.length > 0){         //如果selectedKeys不为空，说明选择了父级分类
